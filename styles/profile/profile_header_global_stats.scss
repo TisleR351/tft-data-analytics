@@ -1,0 +1,51 @@
+@import '../variables';
+
+.container {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.profile-header-global-stats-container {
+  @extend .container;
+  background: $light-gray;
+}
+
+.profile-header-global-stats {
+  margin: 1rem;
+  height: 7vh;
+  width: 100%;
+}
+
+.update-matches-button {
+  margin: 1rem;
+  height: 7vh;
+  max-width: 500px;
+  width: 20vh;
+  font-size: 2vh;
+  color: $font-color;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px $light-gray;
+  background-color: $primary-0;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    background-color: $primary-10;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}

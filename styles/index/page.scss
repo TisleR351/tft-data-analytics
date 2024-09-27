@@ -1,0 +1,78 @@
+@import '../variables';
+
+.index-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 25vh;
+}
+
+.index-title {
+  font-size: 10vh;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.index-summoner-input {
+  width: 80vh;
+  height: 6vh;
+  max-width: 500px;
+  border-radius: 10px;
+  border: 1px solid $font-color;
+  font-size: 3vh;
+  box-shadow: 0 4px 6px $light-gray;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.index-summoner-input,
+.index-tag-input,
+.send-button {
+  max-width: 500px;
+  vertical-align: middle;
+  border-radius: 10px;
+  border: 1px solid $font-color;
+  font-size: 3vh;
+  box-shadow: 0 4px 6px $light-gray;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 1rem;
+}
+
+.index-summoner-input {
+  height: 6vh;
+  width: 80%;
+  text-align: center;
+}
+
+.index-tag-input {
+  height: 6vh;
+  text-align: center;
+  width: 20%;
+  margin-left: 3vh;
+  margin-right: 3vh;
+}
+
+.send-button {
+  color: $font-color;
+  height: 7vh;
+  width: 10%;
+  background-color: $primary-0;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $primary-10;
+  }
+
+  &:active {
+    transform: scale(0.98);
+  }
+
+  i {
+    font-size: 1.2rem;
+  }
+}
+

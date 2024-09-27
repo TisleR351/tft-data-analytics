@@ -1,0 +1,30 @@
+@import '../variables';
+
+.profile-header-account-infos-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rank-container {
+  display: flex
+}
+
+.profile-container {
+  margin: 3rem;
+  display: inline-flex;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 10px;
+  border: none;
+  background: $light-gray;
+}
+
+.profile-icon {
+  margin: 1rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.game-name {
+  margin: 1rem;
+}

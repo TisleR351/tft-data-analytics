@@ -1,0 +1,31 @@
+@import '../variables';
+
+.circle-background {
+  position: relative;
+  margin-left: 1em;
+  margin-right: 1em;
+  min-width: 3em;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+}
+
+.trait-rarity-1 {
+  background: $trait-bronze;
+}
+
+.trait-rarity-2 {
+  background: $trait-silver;
+}
+
+.trait-rarity-3 {
+  background: $trait-gold;
+}
+
+.trait-rarity-4 {
+  background: $trait-legendary;
+}
+
+

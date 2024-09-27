@@ -1,0 +1,26 @@
+@import '../variables';
+
+.ranked-card {
+  margin: 3rem;
+  vertical-align: middle;
+  align-items: center;
+  border-radius: 10px;
+  background: $light-gray;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.ranked-card-legend {
+  text-align: center;
+}
+
+.rank-icon {
+  object-fit: cover;
+}
+
+.ranked-card-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+}

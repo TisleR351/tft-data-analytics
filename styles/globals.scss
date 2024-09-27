@@ -1,0 +1,36 @@
+@import 'variables';
+
+.bg-gradient {
+  background: linear-gradient(
+    135deg,
+    $dark-gray 0%,
+    $light-gray 100%
+  );
+  min-width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: $font-color;
+}
+
+.separator-1,
+.separator-2,
+.separator-3, {
+  width: 1px;
+  background-color: $dark-gray;
+  margin-right: 1rem;
+}
+
+.separator-1 {
+  height: 10vh;
+}
+
+.separator-2 {
+  height: 15vh;
+}
+
+.separator-3 {
+  height: 20vh;
+}

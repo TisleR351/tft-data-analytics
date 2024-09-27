@@ -1,0 +1,49 @@
+@import '../variables';
+
+.fade-out-success-message,
+.fade-out-error-message,
+.fade-out-warning-message,
+.fade-out-default-message {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 1rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.5s forwards, fadeOut 0.5s 2.5s forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-out-success-message {
+  background: $success-0;
+}
+.fade-out-error-message {
+  background: $secondary-0
+}
+.fade-out-warning-message {
+  background: $warning-0
+}
+.fade-out-default-message {
+  background: $default-0
+}

@@ -1,0 +1,52 @@
+@import '../variables';
+
+.match-card {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  vertical-align: middle;
+  background: $light-gray;
+}
+
+.tactician-tile-image {
+  margin: 1rem;
+  border-radius: 10px;
+  border: none;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.compo-infos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  width: 55%;
+  align-items: center;
+  justify-content: center
+}
+
+.player-champions {
+  display: flex;
+}
+
+.player-traits {
+  display: flex;
+}
+
+.stats-infos {
+  min-width: 45%;
+}
+
+.match-history-separator {
+  margin-left: 2em;
+}
+
+.augment-infos {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,43 @@
+// _variables.scss
+
+$dark-gray: #000000;
+$medium-gray: #1C1C1C;
+$light-gray: #222222;
+
+$font-color: #FFFFFF;
+
+$primary-0: #005bb5;
+$primary-10: #0070f3;
+$primary-20: #535353;
+
+$secondary-0: #af0303;
+$secondary-10: #fb1e1e;
+
+$success-0: #308500;
+$success-10: #42bf00;
+
+$warning-0: #856a00;
+$warning-10: #bf9200;
+
+$default-0: #636363;
+$default-10: #9e9e9e;
+
+$champion-common: #9e9e9e;
+$champion-uncommon: #4caf50;
+$champion-rare: #2196f3;
+$champion-mythical: #9c27b0;
+$champion-legendary: #fbc02d;
+
+
+$trait-bronze: #6a4f29;
+$trait-silver: #53687e;
+$trait-gold: #ca9700;
+$trait-legendary: linear-gradient(45deg,
+  #a80077,
+  #d1002e,
+  #f5c900,
+  #2c8c2e,
+  #004b8e,
+  #4b007a,
+  #6a00ff
+);
