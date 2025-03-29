@@ -22,6 +22,7 @@ export function MatchHistory({ matches, globalAccount }: MatchHistoryProps) {
 
         const playerMatchInfo =
           playerIndex !== -1 && match.info.participants[playerIndex];
+        console.log(playerMatchInfo);
 
         const sortedTraits =
           playerMatchInfo &&
@@ -65,16 +66,6 @@ export function MatchHistory({ matches, globalAccount }: MatchHistoryProps) {
                   </div>
                 </div>
                 <div className="separator-1 match-history-separator" />
-                <div className={'augment-infos'}>
-                  {playerMatchInfo.augments.map((augment, index) => (
-                    <AugmentImage
-                      item_ID={`${augment}`}
-                      key={index}
-                      width={50}
-                      height={50}
-                    />
-                  ))}
-                </div>
                 <div className="separator-1 match-history-separator" />
                 <div className={'rank-infos'}></div>
               </>
